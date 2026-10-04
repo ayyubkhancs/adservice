@@ -1,0 +1,5 @@
+resources:
+- ad-rollout-svc.yaml
+images:
+- name: ayyubkhancs/adservice
+  newTag: "1"
