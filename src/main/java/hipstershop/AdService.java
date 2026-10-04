@@ -150,37 +150,37 @@ public final class AdService {
     Ad hairdryer =
         Ad.newBuilder()
             .setRedirectUrl("/product/2ZYFJ3GM2N")
-            .setText("Hairdryer for sale. 50% off. --> First calling")
+            .setText("Hairdryer for sale. 50% off. --> First calling ---")
             .build();
     Ad tankTop =
         Ad.newBuilder()
             .setRedirectUrl("/product/66VCHSJNUP")
-            .setText("Tank top for sale. 20% off. --> Second calling")
+            .setText("Tank top for sale. 20% off. --> Second calling ---")
             .build();
     Ad candleHolder =
         Ad.newBuilder()
             .setRedirectUrl("/product/0PUK6V6EV0")
-            .setText("Candle holder for sale. 30% off. --> Third calling")
+            .setText("Candle holder for sale. 30% off. --> Third calling ---")
             .build();
     Ad bambooGlassJar =
         Ad.newBuilder()
             .setRedirectUrl("/product/9SIQT8TOJO")
-            .setText("Bamboo glass jar for sale. 10% off. --> Fourth calling")
+            .setText("Bamboo glass jar for sale. 10% off. --> Fourth calling ---")
             .build();
     Ad watch =
         Ad.newBuilder()
             .setRedirectUrl("/product/1YMWWN1N4O")
-            .setText("Watch for sale. Buy one, get second kit for free --> Fifth calling")
+            .setText("Watch for sale. Buy one, get second kit for free --> Fifth calling ---")
             .build();
     Ad mug =
         Ad.newBuilder()
             .setRedirectUrl("/product/6E92ZMYYFZ")
-            .setText("Mug for sale. Buy two, get third one for free --> Sixth calling")
+            .setText("Mug for sale. Buy two, get third one for free --> Sixth calling ---")
             .build();
     Ad loafers =
         Ad.newBuilder()
             .setRedirectUrl("/product/L9ECAV7KIM")
-            .setText("Loafers for sale. Buy one, get second one for free --> Seventh calling")
+            .setText("Loafers for sale. Buy one, get second one for free --> Seventh calling ---")
             .build();
     return ImmutableListMultimap.<String, Ad>builder()
         .putAll("clothing", tankTop)
